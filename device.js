@@ -278,12 +278,12 @@ class LoupedeckLiveS extends LoupedeckDevice {
     // Determine touch target based on x/y position
     getTarget(x, y) {
         // Clip to area, ensure to alway return a key
-        x = Math.max(x,this.visibleX[0])
-        x = Math.min(x,this.visibleX[1])
-        y = Math.max(y,this.visibleY[0])
-        y = Math.min(y,this.visibleY[1])
-        x -= this.visibleX[0];
-        y -= this.visibleY[0];
+        x = Math.max(x, this.visibleX[0])
+        x = Math.min(x, this.visibleX[1])
+        y = Math.max(y, this.visibleY[0])
+        y = Math.min(y, this.visibleY[1])
+        x -= this.visibleX[0]
+        y -= this.visibleY[0]
         const column = Math.floor(x / 90)
         const row = Math.floor(y / 90)
         const key = row * this.columns + column

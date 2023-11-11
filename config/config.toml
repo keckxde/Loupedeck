@@ -290,3 +290,36 @@ color = ""
 cmd_type = "shell"
 command = "echo button.3"
 color = ""
+
+# --| Button 4 ------------------
+[button.4]
+cmd_type = "shell"
+command = "echo button.4"
+color = ""
+
+
+# --| Button 5 ------------------
+[button.5]
+cmd_type = "shell"
+command = "echo button.5"
+color = ""
+
+
+# --| Button 6 ------------------
+[button.6]
+cmd_type = "shell"
+command = "echo button.6"
+color = ""
+
+# --| Button 7 ------------------
+[button.7]
+cmd_type = "shell"
+command = "echo button.7"
+color = ""
+
+# --| Button 8 ------------------
+[button.8]
+cmd_type = "shell"
+command = "echo button.8"
+color = ""
+
